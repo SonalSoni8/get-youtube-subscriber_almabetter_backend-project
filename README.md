@@ -80,7 +80,7 @@ node createDatabase.js
 <a href ="#"/>
 Live Here
 </a><br>
-<b>Project Name : <i>Get YouTube Subscribers</i> </b>
+<b>Video Demo : <i>Get YouTube Subscribers</i> </b>
 <a href ="#"/>
 Live Here
 </a>
