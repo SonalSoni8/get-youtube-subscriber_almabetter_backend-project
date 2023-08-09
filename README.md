@@ -6,7 +6,7 @@
 </div>
 <div align="center">
 <h2>Hello ! </h2>
-  <p>Sonal Soni here !</p> 
+<h2>Sonal Soni here !</h2> 
 </div>
 
 <!-- Links to social profiles  -->
@@ -18,8 +18,10 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
-This project is about making a system to handle YouTube subscribers using the backend. I have created a backend api which will send the response in form of JSON. To keep things organized, I used a method where different parts of the code are stored in separate files. For example, I put the part that connects to the API in one file, and the part that works with the database in another file.
-
+<div>
+<p>This project is about making a system to handle YouTube subscribers using the backend. I have created a backend api which will send the response in form of JSON. To keep things organized, I used a method where different parts of the code are stored in separate files. For example, I put the part that connects to the API in one file, and the part that works with the database in another file.
+</p>
+</div>
 
 ## Project Description
 
