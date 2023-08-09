@@ -50,13 +50,13 @@ Live Here
 
 
    ## API Documentation
-✅GET [http://localhost:3000/] - The landing page where user will see the http requests list which they can perform to get subcribers details.
+- GET [http://localhost:3000/] - The landing page where user will see the http requests list which they can perform to get subcribers details.
 
-✅GET [http://localhost:3000/subscribers] - When a user accesses the endpoint /subscribers, the user will retrieve an array of every subscriber in JSON format from the local MongoDB database.
+- GET [http://localhost:3000/subscribers] - When a user accesses the endpoint /subscribers, the user will retrieve an array of every subscriber in JSON format from the local MongoDB database.
 
-✅GET [http://localhost:3000/subscribers/names] - When a user accesses the endpoint /subscribers/names, the user will retrieve an array of all subscribers in JSON format with only the name and subscribed Channel fields from the local MongoDB database, where the data is kept.
+- GET [http://localhost:3000/subscribers/names] - When a user accesses the endpoint /subscribers/names, the user will retrieve an array of all subscribers in JSON format with only the name and subscribed Channel fields from the local MongoDB database, where the data is kept.
 
-✅GET [http://localhost:3000/subscribers/:id] - The user must enter the subscribers ID that is kept in the database to get a specific subscribers information, such as name, subscribed Channel, and subscribed Date, from the endpoint /subscribers/:id in ID, where the data is stored in local MongoDB database.
+- GET [http://localhost:3000/subscribers/:id] - The user must enter the subscribers ID that is kept in the database to get a specific subscribers information, such as name, subscribed Channel, and subscribed Date, from the endpoint /subscribers/:id in ID, where the data is stored in local MongoDB database.
 
 Note:
 If user provide an incorrect subscribers ID rather than the right subscribers ID (where the IDs do not match) that is kept in the database then the user will receive an error message in JSON format.
