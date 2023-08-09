@@ -44,7 +44,7 @@ app.get("/subscribers/:id", async (req, res) => {
   } catch (error) {
     res.status(400).send({
       message: error.message,
-      note: "Enter a valid Subscriber's ID to get the details"
+      note: "Instaed of '/:id' or anything else, Enter the Correct Subscriber's ID to get the Subscriber's details"
     });
   }
 });

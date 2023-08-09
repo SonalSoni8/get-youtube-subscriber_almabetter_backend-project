@@ -49,7 +49,7 @@ Live Here
 - user can get the subscriber details by id.
 
 
-   ## API Documentation
+## API Documentation
 - GET [http://localhost:3000/] - The landing page where user will see the http requests list which they can perform to get subcribers details.
 
 - GET [http://localhost:3000/subscribers] - When a user accesses the endpoint /subscribers, the user will retrieve an array of every subscriber in JSON format from the local MongoDB database.
