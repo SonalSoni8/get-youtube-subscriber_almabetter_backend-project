@@ -14,14 +14,40 @@
   <a href="https://www.linkedin.com/in/sonal-soni-004b47115/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <!-- <a href="https://youtu.be/JkI1acKmYl0">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/> -->
-  <!-- </a> -->
   <a href="https://twitter.com/sonalsoni_8">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
 This project is about making a system to handle YouTube subscribers using the backend. I have created a backend api which will send the response in form of JSON. To keep things organized, I used a method where different parts of the code are stored in separate files. For example, I put the part that connects to the API in one file, and the part that works with the database in another file.
+
+
+## Project Description
+
+<b>Project Name : <i>Get YouTube Subscribers</i> </b>
+<a href ="https://get-youtube-subscriber-almabetter-backend-project-o68p3vjm0.vercel.app/"/>
+Live Here
+</a><br>
+<b>Video Demo : <i>Get YouTube Subscribers</i> </b>
+<a href ="#"/>
+Live Here
+</a>
+
+## Languages and Tools used:
+
+ <div>
+<img src="https://skills.thijs.gg/icons?i=mongodb" title="MongoDB" alt="MongoDB"/>&nbsp;
+  <img src="https://avatars.githubusercontent.com/u/10251060?s=200&v=4" title="Postman" alt="Postman" width="50" height="50"/>&nbsp;
+  <img src="https://skills.thijs.gg/icons?i=nodejs" title="NodeJS" alt="NodeJS" />&nbsp;
+  <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" title="ExpressJS" alt="ExpressJS" width="50" height="50"/>&nbsp;  
+</div>
+
+
+## Characteristics
+
+- User can get the all subscribers.
+- User can get the all subscriber with only name and subscribedchannel.
+- user can get the subscriber details by id.
+
 
    ## API Documentation
 ✅GET [http://localhost:3000/] - The landing page where user will see the http requests list which they can perform to get subcribers details.
@@ -34,8 +60,9 @@ This project is about making a system to handle YouTube subscribers using the ba
 
 Note:
 If user provide an incorrect subscribers ID rather than the right subscribers ID (where the IDs do not match) that is kept in the database then the user will receive an error message in JSON format.
+ 
 
-  ## Getting Started
+## Getting Started
 
 Before running this application, you must have the following softwares:
 
@@ -74,30 +101,3 @@ node createDatabase.js
 ```
 - Go to any Browser and search localhost:3000
 
-## Project Description
-
-<b>Project Name : <i>Get YouTube Subscribers</i> </b>
-<a href ="#"/>
-Live Here
-</a><br>
-<b>Video Demo : <i>Get YouTube Subscribers</i> </b>
-<a href ="#"/>
-Live Here
-</a>
-
-## Languages and Tools used:
-
- <div>
-<img src="https://skills.thijs.gg/icons?i=mongodb" title="MongoDB" alt="MongoDB"/>&nbsp;
-  <img src="https://avatars.githubusercontent.com/u/10251060?s=200&v=4" title="Postman" alt="Postman" width="50" height="50"/>&nbsp;
-  <img src="https://skills.thijs.gg/icons?i=nodejs" title="NodeJS" alt="NodeJS" />&nbsp;
-  <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" title="ExpressJS" alt="ExpressJS" width="50" height="50"/>&nbsp;  
-</div>
-
-
-## Characteristics
-
-- User can get the all subscribers.
-- User can get the all subscriber with only name and subscribedchannel.
-- user can get the subscriber details by id.
- 
