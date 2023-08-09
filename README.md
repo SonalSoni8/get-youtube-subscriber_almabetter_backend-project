@@ -23,7 +23,7 @@
 </div>
 This project is about making a system to handle YouTube subscribers using the backend. I have created a backend api which will send the response in form of JSON. To keep things organized, I used a method where different parts of the code are stored in separate files. For example, I put the part that connects to the API in one file, and the part that works with the database in another file.
 
-   ## HTTP request methods used in the project
+   ## API Documentation
 ✅GET [http://localhost:3000/] - The landing page where user will see the http requests list which they can perform to get subcribers details.
 
 ✅GET [http://localhost:3000/subscribers] - When a user accesses the endpoint /subscribers, the user will retrieve an array of every subscriber in JSON format from the local MongoDB database.
