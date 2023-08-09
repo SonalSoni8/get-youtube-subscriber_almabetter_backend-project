@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="output.css" rel="stylesheet" />
+		<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/42/78/f3/4278f38d4c2be3971fa3921d3af9b3bb.png">
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<title>Get YouTube Subscribers</title>
+	</head>
+
+	<body>
+		<div class="m-10">
+			<div class="flex items-center justify-center gap-6 pb-8">
+				<img
+					class="w-16"
+					src="https://cdn-icons-png.flaticon.com/512/3670/3670163.png"
+					alt="logo"
+				/>
+				<h1 class="text-4xl font-bold text-red-600">
+					Get YouTube Subscribers
+				</h1>
+			</div>
+
+			<div class="items-center flex flex-col">
+				<div class="pb-10 flex flex-col items-center justify-center gap-4">
+				<h3 class="text-xl font-semibold">
+					The APIs provided by this application include the following:
+				</h3>
+				<p class="text-base font-medium">(Click on the below card to get details you want)</p>
+</div>
+				<!-- card -->
+				<div
+					class="grid gap-14 sm:grid-cols-3  lg:grid-rows-3"
+				>
+					<!-- card 1 -->
+					<a
+						href="http://localhost:3000/subscribers"
+						class="max-w-sm rounded overflow-hidden shadow-lg bg-white"
+					>
+						<div class="">
+							<img
+								class="w-full h-52"
+								src="https://media.sproutsocial.com/uploads/2021/10/Get-More-YouTube-Subscribers.jpg"
+								alt="img"
+							/>
+							<div class="px-6 py-4">
+								<div class="font-bold text-xl mb-2">
+									GET
+									<em> /subscribers </em>
+								</div>
+								<p class="text-gray-700 text-base">
+									Provides an array containing all the
+									subscribers stored in the database.
+								</p>
+							</div>
+						</div>
+					</a>
+
+					<!-- card 2 -->
+					<a
+						href="#"
+						class="max-w-sm rounded overflow-hidden shadow-lg bg-white"
+					>
+						<div>
+							<img
+								class="w-full h-52"
+								src="https://img.freepik.com/free-vector/user-follower-icons-social-media-notification-icon-speech-bubbles-vector-illustration_56104-847.jpg?w=996&t=st=1691603838~exp=1691604438~hmac=c059fb18ffc2231e67270d36a7fdc51e4c7636443f5c5033f34458a523277d9c"
+								alt="img"
+							/>
+							<div class="px-6 py-4">
+								<div class="font-bold text-xl mb-2">
+									GET
+									<em> /subscribers/names </em>
+								</div>
+								<p class="text-gray-700 text-base">
+									Provide a response containing an array of
+									subscribers, where each subscriber object
+									includes only two fields: 'name' and
+									'subscribedChannel'.
+								</p>
+							</div>
+						</div>
+					</a>
+
+					<!-- card 3 -->
+					<a href="#">
+						<div
+							class="max-w-sm rounded overflow-hidden shadow-lg bg-white"
+						>
+							<img
+								class="w-full h-52 bg-red-100"
+								src="https://cdn-icons-png.flaticon.com/512/496/496216.png?w=826&t=st=1691598499~exp=1691599099~hmac=e7eb31e58dc34fd039846d7af860622ceb2d038711be30be63e9f4ddd556322b"
+								alt="img"
+							/>
+							<div class="px-6 py-4">
+								<div class="font-bold text-xl mb-2">
+									GET
+									<em> /subscribers/:id </em>
+								</div>
+								<p class="text-gray-700 text-base">
+									Provide a response containing the details of
+									a subscriber (represented as an object)
+									associated with the provided ID.
+									<br />
+									<br />
+									<b>Note:</b> If the ID does not correspond
+									to any subscriber, respond with a status
+									code of 400 along with an error message
+									(message: error.message).
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
